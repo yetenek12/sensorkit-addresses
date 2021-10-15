@@ -20,6 +20,7 @@
 #define ADDR_LEDG           ADDR_LEDM+2
 #define ADDR_LEDB           ADDR_LEDM+3
 #define ADDR_LEDW           ADDR_LEDM+4
+#define ADDR_LEDT           ADDR_LEDM+5 // Brightness
 #define ADDR_VSUP           19	//Supply Voltage
 
 // Air-Mic-UV Module
