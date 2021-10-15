@@ -15,8 +15,6 @@
 #define MAX_SLAVE_RESPONSE_LENGTH 16        //default was 32
 #define MODBUS_SPEED 38400
 
-#define MODBUS_SPEED 38400
-
 #define ADDR_LEDM	        10	//LED Mode(0 = Auto, 1 Dim Red, 2 Dim Green, 3 Dim Blue, 4 Dim White, 5 Red, 6 Green, 7 Blue, 8 White, 9 Fl. Red, 10 Fl. Green, 11 Fl. Blue, 12 Fl. White)  
 #define ADDR_LEDR	        ADDR_LEDM+1
 #define ADDR_LEDG           ADDR_LEDM+2
