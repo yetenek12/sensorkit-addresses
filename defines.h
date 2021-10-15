@@ -120,7 +120,7 @@
 #define ADDR_IO_ADC2_V      ADDR_IO + 6
 #define ADDR_IO_ADC3_V      ADDR_IO + 7
 #define ADDR_IO_ADC4_V      ADDR_IO + 8
-#define ADDR_IO_A1          ADDR_IO + 9
+#define ADDR_IO_A1          ADDR_IO + 9 // Output Ports
 #define ADDR_IO_A2          ADDR_IO + 10
 #define ADDR_IO_A3          ADDR_IO + 11
 #define ADDR_IO_A4          ADDR_IO + 12
@@ -128,7 +128,7 @@
 #define ADDR_IO_A6          ADDR_IO + 14
 #define ADDR_IO_A7          ADDR_IO + 15
 #define ADDR_IO_A8          ADDR_IO + 16
-#define ADDR_IO_B1          ADDR_IO + 17
+#define ADDR_IO_B1          ADDR_IO + 17 // Input Ports
 #define ADDR_IO_B2          ADDR_IO + 18
 #define ADDR_IO_B3          ADDR_IO + 19
 #define ADDR_IO_B4          ADDR_IO + 20
