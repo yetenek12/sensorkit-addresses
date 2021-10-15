@@ -9,6 +9,11 @@
 06: Hardware Rev
 08: Firmware Ver
 */
+#define HOLDING_REGISTERS 0x03
+#define INPUT_REGISTERS 0x04
+
+#define MAX_SLAVE_RESPONSE_LENGTH 16        //default was 32
+#define MODBUS_SPEED 38400
 
 #define MODBUS_SPEED 38400
 
