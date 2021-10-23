@@ -88,6 +88,10 @@
 #define ADDR_TRU_C_L        ADDR_TRU+14 // Color Temp
 #define ADDR_TRU_C_CONF     ADDR_TRU+15 // Color Config
 #define ADDR_TRU_IR         ADDR_TRU+16 // IR Sensor
+#define ADDR_TRU_CO2        ADDR_TRU+17 // SGP30 CO2
+#define ADDR_TRU_TVOC       ADDR_TRU+18 // SGP30 TVOC
+#define ADDR_TRU_H2         ADDR_TRU+19 // SGP30 H2
+#define ADDR_TRU_ETH        ADDR_TRU+20 // SGP30 ETHANOL
 
 
 // //OLED
