@@ -54,24 +54,26 @@
 
 
 
-// AIR MIC UV Module
-#define ADDR_AMU            50
-#define ADDR_AMU_SF         ADDR_AMU+1 // Sound Frequency
-#define ADDR_AMU_SA         ADDR_AMU+2 // Sound Amplitude
-#define ADDR_AMU_A          ADDR_AMU+3 // UV A
-#define ADDR_AMU_B          ADDR_AMU+4 // UV B
-#define ADDR_AMU_I          ADDR_AMU+5 // UV Index
-#define ADDR_AMU_TMP	    ADDR_AMU+6 // BME Temperature
-#define ADDR_AMU_HUM	    ADDR_AMU+7 // BME Humidity
-#define ADDR_AMU_PRE	    ADDR_AMU+8 // BME Pressure
-#define ADDR_AMU_ALT	    ADDR_AMU+9 // BME Altitiude
-#define ADDR_AMU_UV_I	    ADDR_AMU+10 // Config: UV Integration Time
-#define ADDR_AMU_UV_S	    ADDR_AMU+11 // Config: UV setHighDynamic
-#define ADDR_AMU_BME_C	    ADDR_AMU+12 // Config: BME Filter Options
+// AIR MIC SGP Module
+#define ADDR_AMS            50
+#define ADDR_AMS_SF         ADDR_AMS+1 // Sound Frequency
+#define ADDR_AMS_SA         ADDR_AMS+2 // Sound Amplitude
+#define ADDR_AMS_A          ADDR_AMS+3 // UV A
+#define ADDR_AMS_B          ADDR_AMS+4 // UV B
+#define ADDR_AMS_I          ADDR_AMS+5 // UV Index
+#define ADDR_AMS_TMP	    ADDR_AMS+6 // BME Temperature
+#define ADDR_AMS_HUM	    ADDR_AMS+7 // BME Humidity
+#define ADDR_AMS_PRE	    ADDR_AMS+8 // BME Pressure
+#define ADDR_AMS_ALT	    ADDR_AMS+9 // BME Altitiude
+#define ADDR_AMS_BME_C	    ADDR_AMS+10 // Config: BME Filter Options
+#define ADDR_AMS_CO2        ADDR_AMS+11 // SGP30 CO2
+#define ADDR_AMS_TVOC       ADDR_AMS+12 // SGP30 TVOC
+#define ADDR_AMS_H2         ADDR_AMS+13 // SGP30 H2
+#define ADDR_AMS_ETH        ADDR_AMS+14 // SGP30 ETHANOL
 
 
 // TOF RGB UV Module
-#define ADDR_TRU            65
+#define ADDR_TRU            70
 #define ADDR_TRU_DIS        ADDR_TRU+1 // Distance
 #define ADDR_TRU_DIS_STA    ADDR_TRU+2 // Distance Status
 #define ADDR_TRU_DIS_M      ADDR_TRU+3 // Config: Distance Reading Mode
@@ -88,10 +90,7 @@
 #define ADDR_TRU_C_L        ADDR_TRU+14 // Color Temp
 #define ADDR_TRU_C_CONF     ADDR_TRU+15 // Color Config
 #define ADDR_TRU_IR         ADDR_TRU+16 // IR Sensor
-#define ADDR_TRU_CO2        ADDR_TRU+17 // SGP30 CO2
-#define ADDR_TRU_TVOC       ADDR_TRU+18 // SGP30 TVOC
-#define ADDR_TRU_H2         ADDR_TRU+19 // SGP30 H2
-#define ADDR_TRU_ETH        ADDR_TRU+20 // SGP30 ETHANOL
+
 
 
 // //OLED
