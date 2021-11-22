@@ -44,27 +44,31 @@
 #define ADDR_IO_ADC2        31
 #define ADDR_IO_ADC3        32
 #define ADDR_IO_ADC4        33
-#define ADDR_IO_ADC1_V      34
-#define ADDR_IO_ADC2_V      35
-#define ADDR_IO_ADC3_V      36
-#define ADDR_IO_ADC4_V      37
-#define ADDR_IO_ADC_CONFIG  38
-#define ADDR_IO_A1          39 // Output Ports
-#define ADDR_IO_A2          40
-#define ADDR_IO_A3          41
-#define ADDR_IO_A4          42
-#define ADDR_IO_A5          43
-#define ADDR_IO_A6          44
-#define ADDR_IO_A7          45
-#define ADDR_IO_A8          46
-#define ADDR_IO_B1          47 // Input Ports
-#define ADDR_IO_B2          48
-#define ADDR_IO_B3          49
-#define ADDR_IO_B4          50
-#define ADDR_IO_B5          51
-#define ADDR_IO_B6          52
-#define ADDR_IO_B7          53
-#define ADDR_IO_B8          54
+#define ADDR_IO_ADC1_V_MSB  34
+#define ADDR_IO_ADC1_V_LSB  35
+#define ADDR_IO_ADC2_V_MSB  36
+#define ADDR_IO_ADC2_V_LSB  37
+#define ADDR_IO_ADC3_V_MSB  38
+#define ADDR_IO_ADC3_V_LSB  39
+#define ADDR_IO_ADC4_V_MSB  40
+#define ADDR_IO_ADC4_V_LSB  41
+#define ADDR_IO_ADC_CONFIG  42
+#define ADDR_IO_A1          43 // Output Ports
+#define ADDR_IO_A2          44
+#define ADDR_IO_A3          45
+#define ADDR_IO_A4          46
+#define ADDR_IO_A5          47
+#define ADDR_IO_A6          48
+#define ADDR_IO_A7          49
+#define ADDR_IO_A8          50
+#define ADDR_IO_B1          51 // Input Ports
+#define ADDR_IO_B2          52
+#define ADDR_IO_B3          53
+#define ADDR_IO_B4          54
+#define ADDR_IO_B5          55
+#define ADDR_IO_B6          56
+#define ADDR_IO_B7          57
+#define ADDR_IO_B8          58
 
 
 // AIR MIC SGP Module
