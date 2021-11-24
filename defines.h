@@ -79,20 +79,27 @@
 #define ADDR_AMS_5          44
 #define ADDR_AMS_6          45
 
-#define ADDR_AMS_SF         30 // Sound Frequency
-#define ADDR_AMS_SA         31 // Sound Amplitude
-#define ADDR_AMS_A          32 // UV A
-#define ADDR_AMS_B          33 // UV B
-#define ADDR_AMS_I          34 // UV Index
-#define ADDR_AMS_TMP	    35 // BME Temperature
-#define ADDR_AMS_HUM	    36 // BME Humidity
-#define ADDR_AMS_PRE	    37 // BME Pressure
-#define ADDR_AMS_ALT	    38 // BME Altitiude
-#define ADDR_AMS_BME_C	    39 // Config: BME Filter Options
-#define ADDR_AMS_CO2        40 // SGP30 CO2
-#define ADDR_AMS_TVOC       41 // SGP30 TVOC
-#define ADDR_AMS_H2         42 // SGP30 H2
-#define ADDR_AMS_ETH        43 // SGP30 ETHANOL
+#define ADDR_AMS_SF_MSB         30 // Sound Frequency MSB
+#define ADDR_AMS_SF_LSB         31 // Sound Frequency LSB
+#define ADDR_AMS_SA_MSB         32 // Sound Amplitude MSB
+#define ADDR_AMS_SA_LSB         33 // Sound Amplitude LSB
+#define ADDR_AMS_TMP_MSB	    34 // BME Temperature MSB
+#define ADDR_AMS_TMP_LSB	    35 // BME Temperature LSB
+#define ADDR_AMS_HUM_MSB	    36 // BME Humidity MSB
+#define ADDR_AMS_HUM_LSB	    37 // BME Humidity LSB
+#define ADDR_AMS_PRE_MSB	    38 // BME Pressure MSB
+#define ADDR_AMS_PRE_LSB	    39 // BME Pressure LSB
+#define ADDR_AMS_ALT_MSB	    40 // BME Altitiude MSB
+#define ADDR_AMS_ALT_LSB	    41 // BME Altitiude LSB
+#define ADDR_AMS_BME_C	        42 // Config: BME Filter Options
+#define ADDR_AMS_CO2_MSB        43 // SGP30 CO2 MSB
+#define ADDR_AMS_CO2_LSB        44 // SGP30 CO2 LSB
+#define ADDR_AMS_TVOC_MSB       45 // SGP30 TVOC MSB
+#define ADDR_AMS_TVOC_LSB       46 // SGP30 TVOC LSB
+#define ADDR_AMS_H2_MSB         47 // SGP30 H2 MSB
+#define ADDR_AMS_H2_LSB         48 // SGP30 H2 LSB
+#define ADDR_AMS_ETH_MSB        49 // SGP30 ETHANOL MSB
+#define ADDR_AMS_ETH_LSB        50 // SGP30 ETHANOL LSB
 
 
 // TOF RGB UV Module
