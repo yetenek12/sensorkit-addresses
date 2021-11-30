@@ -114,12 +114,12 @@
 #define ADDR_TRU_DIS_LSB    31 // Distance LSB
 #define ADDR_TRU_DIS_STA    32 // Distance Status
 #define ADDR_TRU_DIS_M      33 // Config: Distance Reading Mode
-#define ADDR_TRU_A          34 // UV A MSB
-#define ADDR_TRU_A          35 // UV A LSB
-#define ADDR_TRU_B          36 // UV B MSB
-#define ADDR_TRU_B          37 // UV B LSB
-#define ADDR_TRU_I          38 // UV Index MSB
-#define ADDR_TRU_I          39 // UV Index LSB
+#define ADDR_TRU_A_MSB      34 // UV A MSB
+#define ADDR_TRU_A_LSB      35 // UV A LSB
+#define ADDR_TRU_B_MSB      36 // UV B MSB
+#define ADDR_TRU_B_LSB      37 // UV B LSB
+#define ADDR_TRU_I_MSB      38 // UV Index MSB
+#define ADDR_TRU_I_LSB      39 // UV Index LSB
 #define ADDR_TRU_UV_I	    40 // Config: UV Integration Time
 #define ADDR_TRU_UV_S	    41 // Config: UV setHighDynamic
 #define ADDR_TRU_C_R        42 // Color Red
