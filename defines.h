@@ -110,22 +110,26 @@
 #define ADDR_TRU_5          54
 #define ADDR_TRU_6          55
 
-#define ADDR_TRU_DIS        30 // Distance
-#define ADDR_TRU_DIS_STA    31 // Distance Status
-#define ADDR_TRU_DIS_M      32 // Config: Distance Reading Mode
-#define ADDR_TRU_A          33 // UV A
-#define ADDR_TRU_B          34 // UV B
-#define ADDR_TRU_I          35 // UV Index
-#define ADDR_TRU_UV_I	    36 // Config: UV Integration Time
-#define ADDR_TRU_UV_S	    37 // Config: UV setHighDynamic
-#define ADDR_TRU_C_R        38 // Color Red
-#define ADDR_TRU_C_G        39 // Color Green
-#define ADDR_TRU_C_B        40 // Color Blue
-#define ADDR_TRU_C_C        41 // Color C
-#define ADDR_TRU_C_T        42 // Color Temp
-#define ADDR_TRU_C_L        43 // Color Temp
-#define ADDR_TRU_C_CONF     44 // Color Config
-#define ADDR_TRU_IR         45 // IR Sensor
+#define ADDR_TRU_DIS_MSB    30 // Distance MSB
+#define ADDR_TRU_DIS_LSB    31 // Distance LSB
+#define ADDR_TRU_DIS_STA    32 // Distance Status
+#define ADDR_TRU_DIS_M      33 // Config: Distance Reading Mode
+#define ADDR_TRU_A          34 // UV A MSB
+#define ADDR_TRU_A          35 // UV A LSB
+#define ADDR_TRU_B          36 // UV B MSB
+#define ADDR_TRU_B          37 // UV B LSB
+#define ADDR_TRU_I          38 // UV Index MSB
+#define ADDR_TRU_I          39 // UV Index LSB
+#define ADDR_TRU_UV_I	    40 // Config: UV Integration Time
+#define ADDR_TRU_UV_S	    41 // Config: UV setHighDynamic
+#define ADDR_TRU_C_R        42 // Color Red
+#define ADDR_TRU_C_G        43 // Color Green
+#define ADDR_TRU_C_B        44 // Color Blue
+#define ADDR_TRU_C_C        45 // Color Clear
+#define ADDR_TRU_C_T        46 // Color Temp
+#define ADDR_TRU_C_L        47 // Color Lux
+#define ADDR_TRU_C_CONF     48 // Color Config
+#define ADDR_TRU_IR         49 // IR Sensor
 
 
 // 9DoF Sensor
