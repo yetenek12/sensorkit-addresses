@@ -156,6 +156,20 @@
 #define ADDR_CMPMODE     43
 
 
+// Temp Probe Sensor
+#define ADDR_TEMP_1        70 // Default
+#define ADDR_TEMP_2        71
+#define ADDR_TEMP_3        72
+#define ADDR_TEMP_4        73
+#define ADDR_TEMP_5        74
+#define ADDR_TEMP_6        75
+
+#define ADDR_TEMP_S        30 // Status (int)
+#define ADDR_TEMP_T_MSB    31 // Temperature (Float)
+#define ADDR_TEMP_T_LSB    32 // Temperature (Float)
+#define ADDR_TEMP_R_MSB    33 // Resistance (Float)
+#define ADDR_TEMP_R_LSB    34 // Resistance (Float)
+
 
 // //OLED
 // #define ADDR_OLED           60 //60 or 61
