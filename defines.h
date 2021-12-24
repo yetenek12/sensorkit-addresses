@@ -5,7 +5,7 @@
 #define INPUT_REGISTERS     0x04
 
 #define MAX_SLAVE_RESPONSE_LENGTH   16        //default was 32
-#define MODBUS_SPEED                38400
+#define MODBUS_SPEED                115200
 
 
 // Common Registers
@@ -18,7 +18,6 @@
 #define ADDR_C_DEF_MODBUS_ADDR  7  // Default ModBus Address (16 bit)
 #define ADDR_C_CURR_I2C_ADDR    8  // Current I2C Address (8 bit)
 #define ADDR_C_CURR_MODBUS_ADDR 9  // Current ModBus Address (16 bit)
-
 #define ADDR_C_SET_I2C_ADDR     10  // Set I2C Address (8 bit)
 #define ADDR_C_SET_MODBUS_ADDR  11  // Set ModBus Address (16 bit)
 
