@@ -170,22 +170,4 @@
 #define ADDR_TEMP_R_MSB    33 // Resistance (Float)
 #define ADDR_TEMP_R_LSB    34 // Resistance (Float)
 
-
-// //OLED
-// #define ADDR_OLED           60 //60 or 61
-
-// //PT1000 MAX31865 TEMPERATURE SENSOR
-// #define ADDR_TEMP           65
-// //#define ADDR_TEMPERATURE    50
-
-// #define ADDR_MOTOR       85
-// #define ADDR_MOTOR_MODE  ADDR_MOTOR
-// #define ADDR_SDIR        ADDR_MOTOR+1             //Set direction
-// #define ADDR_SSPD        ADDR_MOTOR+2           //Set speed
-// #define ADDR_CDIR        ADDR_MOTOR+3             //Current direction
-// #define ADDR_CSPD        ADDR_MOTOR+4             //Current speed
-// #define ADDR_ACONS       ADDR_MOTOR+5             //Current consumption
-// #define ADDR_ALIMIT      ADDR_MOTOR+6             //Current consumption
-// #endif
-
 #endif
