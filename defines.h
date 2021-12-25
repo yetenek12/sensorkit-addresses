@@ -91,14 +91,17 @@
 #define ADDR_AMS_ALT_MSB	    40 // BME Altitiude MSB
 #define ADDR_AMS_ALT_LSB	    41 // BME Altitiude LSB
 #define ADDR_AMS_BME_C	        42 // Config: BME Filter Options
-#define ADDR_AMS_CO2_MSB        43 // SGP30 CO2 MSB
-#define ADDR_AMS_CO2_LSB        44 // SGP30 CO2 LSB
-#define ADDR_AMS_TVOC_MSB       45 // SGP30 TVOC MSB
-#define ADDR_AMS_TVOC_LSB       46 // SGP30 TVOC LSB
-#define ADDR_AMS_H2_MSB         47 // SGP30 H2 MSB
-#define ADDR_AMS_H2_LSB         48 // SGP30 H2 LSB
-#define ADDR_AMS_ETH_MSB        49 // SGP30 ETHANOL MSB
-#define ADDR_AMS_ETH_LSB        50 // SGP30 ETHANOL LSB
+#define ADDR_AMS_BME_SEA_MSB    43 // Config: BME Sea Level MSB
+#define ADDR_AMS_BME_SEA_LSB    44 // Config: BME Sea Level LSB
+#define ADDR_AMS_CO2_MSB        45 // SGP30 CO2 MSB
+#define ADDR_AMS_CO2_LSB        46 // SGP30 CO2 LSB
+#define ADDR_AMS_TVOC_MSB       47 // SGP30 TVOC MSB
+#define ADDR_AMS_TVOC_LSB       48 // SGP30 TVOC LSB
+#define ADDR_AMS_H2_MSB         49 // SGP30 H2 MSB
+#define ADDR_AMS_H2_LSB         50 // SGP30 H2 LSB
+#define ADDR_AMS_ETH_MSB        51 // SGP30 ETHANOL MSB
+#define ADDR_AMS_ETH_LSB        52 // SGP30 ETHANOL LSB
+#define ADDR_AMS_LED            53 // LED
 
 
 // TOF RGB UV Module
@@ -127,8 +130,9 @@
 #define ADDR_TRU_C_C        45 // Color Clear
 #define ADDR_TRU_C_T        46 // Color Temp
 #define ADDR_TRU_C_L        47 // Color Lux
-#define ADDR_TRU_C_CONF     48 // Color Config
+#define ADDR_TRU_C_CONF     48 // Config: Color Sensor
 #define ADDR_TRU_IR         49 // IR Sensor
+#define ADDR_TRU_LED        50 // LED
 
 
 // 9DoF Sensor
