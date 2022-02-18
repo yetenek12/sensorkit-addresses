@@ -143,20 +143,29 @@
 #define ADDR_DOF9_5             64
 #define ADDR_DOF9_6             65
 
-#define ADDR_ACCX               30
-#define ADDR_ACCY               31
-#define ADDR_ACCZ               32
-#define ADDR_GYRX               33
-#define ADDR_GYRY               34
-#define ADDR_GYRZ               35
-#define ADDR_MAGX               36
-#define ADDR_MAGY               37
-#define ADDR_MAGZ               38
-#define ADDR_HDG                39
-#define ADDR_TEMP9              40
-#define ADDR_ACCMODE            41
-#define ADDR_GYRMODE            42
-#define ADDR_CMPMODE            43
+#define ADDR_ACCX_MSB           30
+#define ADDR_ACCX_LSB           31
+#define ADDR_ACCY_MSB           32
+#define ADDR_ACCY_LSB           33
+#define ADDR_ACCZ_MSB           34
+#define ADDR_ACCZ_LSB           35
+#define ADDR_GYRX_MSB           36
+#define ADDR_GYRX_LSB           37
+#define ADDR_GYRY_MSB           38
+#define ADDR_GYRY_LSB           39
+#define ADDR_GYRZ_MSB           40
+#define ADDR_GYRZ_LSB           41
+#define ADDR_MAGX_MSB           42
+#define ADDR_MAGX_LSB           43
+#define ADDR_MAGY_MSB           44
+#define ADDR_MAGY_LSB           45
+#define ADDR_MAGZ_MSB           46
+#define ADDR_MAGZ_LSB           47
+#define ADDR_HDG                48
+#define ADDR_TEMP9              49
+#define ADDR_ACCMODE            50
+#define ADDR_GYRMODE            51
+#define ADDR_CMPMODE            52
 
 
 // Temp Probe Sensor
@@ -170,7 +179,6 @@
 #define ADDR_TEMP_S             30 // Status
 #define ADDR_TEMP_T_MSB         31 // Temperature MSB
 #define ADDR_TEMP_T_LSB         32 // Temperature LSB
-#define ADDR_TEMP_R_MSB         33 // Resistance MSB // remove
-#define ADDR_TEMP_R_LSB         34 // Resistance LSB // remove
+#define ADDR_TEMP_LED           33 // LED
 
 #endif
