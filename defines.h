@@ -162,10 +162,11 @@
 #define ADDR_IMU_MAGZ_MSB           46
 #define ADDR_IMU_MAGZ_LSB           47
 #define ADDR_IMU_HDG                48
-#define ADDR_IMU_TEMP9              49
-#define ADDR_IMU_ACCMODE            50
-#define ADDR_IMU_GYRMODE            51
-#define ADDR_IMU_CMPMODE            52
+#define ADDR_IMU_TEMP9_MSB          49
+#define ADDR_IMU_TEMP9_LSB          50
+#define ADDR_IMU_ACCMODE            51
+#define ADDR_IMU_GYRMODE            52
+#define ADDR_IMU_CMPMODE            53
 
 
 // Temp Probe Sensor
