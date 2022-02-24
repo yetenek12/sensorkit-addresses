@@ -136,12 +136,12 @@
 
 
 // IMU
-#define ADDR_DOF9_1             60 // Default
-#define ADDR_DOF9_2             61
-#define ADDR_DOF9_3             62
-#define ADDR_DOF9_4             63
-#define ADDR_DOF9_5             64
-#define ADDR_DOF9_6             65
+#define ADDR_IMU_1             60 // Default
+#define ADDR_IMU_2             61
+#define ADDR_IMU_3             62
+#define ADDR_IMU_4             63
+#define ADDR_IMU_5             64
+#define ADDR_IMU_6             65
 
 #define ADDR_IMU_ACCX_MSB           30
 #define ADDR_IMU_ACCX_LSB           31
