@@ -133,6 +133,11 @@
 #define ADDR_OPT_C_CONF         48 // Config: Color Sensor
 #define ADDR_OPT_IR             49 // IR Sensor
 #define ADDR_OPT_LED            50 // LED
+#define ADDR_OPT_LEDR	        51
+#define ADDR_OPT_LEDG           52
+#define ADDR_OPT_LEDB           53
+#define ADDR_OPT_LEDW           54
+#define ADDR_OPT_LEDT           55 // Brightness
 
 
 // IMU
@@ -181,5 +186,30 @@
 #define ADDR_TEMP_T_MSB         31 // Temperature MSB
 #define ADDR_TEMP_T_LSB         32 // Temperature LSB
 #define ADDR_TEMP_LED           33 // LED
+
+
+// Motor Driver
+#define ADDR_MOTOR_1             80 // Default
+#define ADDR_MOTOR_2             81
+#define ADDR_MOTOR_3             82
+#define ADDR_MOTOR_4             83
+#define ADDR_MOTOR_5             84
+#define ADDR_MOTOR_6             85
+
+#define ADDR_MOTOR_LEFT_SPEED        30
+#define ADDR_MOTOR_LEFT_DIR          31
+#define ADDR_MOTOR_RIGHT_SPEED       32
+#define ADDR_MOTOR_RIGHT_DIR         33
+
+#define ADDR_MOTOR_RIGHT_VEL_MSB     34
+#define ADDR_MOTOR_RIGHT_VEL_LSB     35
+#define ADDR_MOTOR_RIGHT_POS_MSB     36
+#define ADDR_MOTOR_RIGHT_POS_LSB     37
+#define ADDR_MOTOR_LEFT_VEL_MSB      38
+#define ADDR_MOTOR_LEFT_VEL_LSB      39
+#define ADDR_MOTOR_LEFT_POS_MSB      40
+#define ADDR_MOTOR_LEFT_POS_LSB      41
+#define ADDR_MOTOR_BUS_VOLTAGE_MSB   42
+#define ADDR_MOTOR_BUS_VOLTAGE_LSB   43
 
 #endif
