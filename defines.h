@@ -212,4 +212,15 @@
 #define ADDR_MOTOR_BUS_VOLTAGE_MSB   42
 #define ADDR_MOTOR_BUS_VOLTAGE_LSB   43
 
+
+// LoRa
+#define ADDR_LORA_1             90 // Default
+#define ADDR_LORA_2             91
+#define ADDR_LORA_3             92
+#define ADDR_LORA_4             93
+#define ADDR_LORA_5             94
+#define ADDR_LORA_6             95
+
+#define ADDR_LORA_PACKET        30
+
 #endif
