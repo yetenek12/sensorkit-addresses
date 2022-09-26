@@ -221,6 +221,29 @@
 #define ADDR_LORA_5             94
 #define ADDR_LORA_6             95
 
-#define ADDR_LORA_PACKET        30
+#define ADDR_LORA_GPS_LNG_MSB        30
+#define ADDR_LORA_GPS_LNG_LSB        31
+#define ADDR_LORA_GPS_LAT_MSB        32
+#define ADDR_LORA_GPS_LAT_LSB        33
+#define ADDR_LORA_GPS_ALT_MSB        34
+#define ADDR_LORA_GPS_ALT_LSB        35
+#define ADDR_LORA_GPS_SAT            36
+#define ADDR_LORA_BME_TEMP_MSB       37
+#define ADDR_LORA_BME_TEMP_LSB       38
+#define ADDR_LORA_BME_HUM_MSB        39
+#define ADDR_LORA_BME_HUM_LSB        40
+#define ADDR_LORA_BME_PRESSURE_MSB   41
+#define ADDR_LORA_BME_PRESSURE_LSB   42
+#define ADDR_LORA_BME_ALT_MSB        43
+#define ADDR_LORA_BME_ALT_LSB        44
+#define ADDR_LORA_CO2_MSB            45
+#define ADDR_LORA_CO2_LSB            46
+#define ADDR_LORA_TVOC_MSB           47
+#define ADDR_LORA_TVOC_LSB           48
+#define ADDR_LORA_H2_MSB             49
+#define ADDR_LORA_H2_LSB             50
+#define ADDR_LORA_ETH_MSB            51
+#define ADDR_LORA_ETH_LSB            52
+#define ADDR_LORA_RSSI               53
 
 #endif
