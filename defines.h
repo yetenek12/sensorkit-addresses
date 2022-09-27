@@ -245,5 +245,11 @@
 #define ADDR_LORA_ETH_MSB            51
 #define ADDR_LORA_ETH_LSB            52
 #define ADDR_LORA_RSSI               53
+#define ADDR_LORA_DATE_YEAR          54
+#define ADDR_LORA_DATE_MONTH         55
+#define ADDR_LORA_DATE_DAY           56
+#define ADDR_LORA_TIME_HOUR          57
+#define ADDR_LORA_TIME_MIN           58
+#define ADDR_LORA_TIME_SEC           59
 
 #endif
